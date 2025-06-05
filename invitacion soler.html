@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sergio & Lissy - ¡Nos Casamos!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --verde-oliva: #556B2F;
+      --verde-oscuro: #2E4A1F;
+      --dorado: #D4AF37;
+      --blanco: #FFFFFF;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: var(--verde-oscuro);
+      color: var(--blanco);
+    }
+
+    header {
+      background-color: var(--verde-oliva);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      color: var(--dorado);
+      margin: 0;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: var(--dorado);
+      font-family: 'Great Vibes', cursive;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .countdown iframe {
+      width: 100%;
+      height: 150px;
+      border: none;
+    }
+
+    .mapa iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+    }
+
+    .itinerario ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .itinerario li {
+      margin-bottom: 0.5rem;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .galeria img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+    }
+
+    .confirmar {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .confirmar a {
+      background-color: var(--dorado);
+      color: var(--verde-oscuro);
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: var(--verde-oliva);
+      text-align: center;
+      padding: 1rem;
+      color: var(--blanco);
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sergio & Lissy</h1>
+    <p>¡Nos Casamos!</p>
+  </header>
+
+  <section>
+    <h2>Nuestra Historia</h2>
+    <p>
+      El matrimonio le da un nuevo significado a nuestra historia de amor y cuando te das cuenta que quieres pasar el resto de tu vida con esa persona, quieres que el resto de tu vida empiece lo antes posible....
+    </p>
+    <p>
+      Cada uno de ustedes juega un papel único en nuestras vidas, compartiendo con nosotros recuerdos que siempre atesoraremos.
+    </p>
+    <p>
+      Con el corazón lleno de ilusión y felicidad esperamos que puedas acompañarnos en este gran día.
+    </p>
+  </section>
+
+  <section class="countdown">
+    <h2>Cuenta Regresiva</h2>
+    <iframe src="https://www.tickcounter.com/countdown/7440231/my-countdown" allowfullscreen></iframe>
+  </section>
+
+  <section>
+    <h2>Detalles de la Boda</h2>
+    <h3>Ceremonia</h3>
+    <p>Capilla San José - Seminario Mayor Arquidiocesano</p>
+    <p>2:30 pm Ceremonia</p>
+    <div class="mapa">
+      <iframe src="https://maps.app.goo.gl/7ZMjNoKh34Yd4GLK7" allowfullscreen></iframe>
+    </div>
+
+    <h3>Recepción</h3>
+    <p>La Ruitoca Picnic</p>
+    <p>4:15 pm Recepción</p>
+    <div class="mapa">
+      <iframe src="https://maps.app.goo.gl/cujWf2Hyw2NPFzP68" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="itinerario">
+    <h2>Itinerario</h2>
+    <ul>
+      <li>2:30 pm - Ceremonia</li>
+      <li>4:30 pm - Cóctel de bienvenida</li>
+      <li>6:00 pm - Recepción</li>
+      <li>7:00 pm - Baile de novios</li>
+      <li>8:30 pm - Cena</li>
+      <li>10:30 pm - Torta</li>
+      <li>11:30 pm - Hora loca</li>
+      <li>2:00 am - Despedida</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Nuestro Amor</h2>
+    <div class="galeria">
+      <img src="FOTO 1 SOLER" alt="Foto 1">
+      <img src="FOTO 2 SOLER" alt="Foto 2">
+      <img src="FOTO 3 SOLER" alt="Foto 3">
+    </div>
+  </section>
+
+  <section>
+    <h2>En Nuestra Fiesta</h2>
+    <p><strong>Dress Code:</strong></p>
+    <ul>
+      <li>Mujeres - Formal, vestido largo (se reserva el color blanco)</li>
+      <li>Hombres - Formal, smoking (se reserva el color beige)</li>
+    </ul>
+    <p><strong>Lluvia de Sobres:</strong></p>
+    <p>Tu compañía es nuestro mejor regalo, pero agradecemos toda contribución.</p>
+  </section>
+
+  <section class="confirmar">
+    <h2>Confirmar Asistencia</h2>
+    <p>¡Te esperamos!</p>
+    <p>Para nosotros es muy importante que confirmes tu asistencia antes del día 10 de julio del 2025.</p>
+    <a href="https://wa.me/3184147060" target="_blank">Confirmar Asistencia</a>
+  </section>
+
+  <footer>
+    <p>Con amor, Sergio & Lissy</p>
+  </footer>
+
+</body>
+</html>
